@@ -11,4 +11,7 @@ git checkout COMMITHASH - загрузка в репозиторий файло�
 git reset HEAD - отменяет изменения до последнего коммита.
 git checkout FILE - откатывает к последнему HEAD у файл.
 git revert COMMITHASH - откат brench а к COMMITHASH.
- 
+git revert --abort
+git brench - список веток
+git checkout -b newbranchname - переход на новую ветку
+
