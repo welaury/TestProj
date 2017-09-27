@@ -14,4 +14,8 @@ git revert COMMITHASH - откат brench а к COMMITHASH.
 git revert --abort
 git brench - список веток
 git checkout -b newbranchname - переход на новую ветку
-
+git merge BRANCHNAME - слияние ветвей.
+git rebase branchname - похожа на мердж, но прост копируется, а не сливается
+На гитхабе есть инструкция как залить из локального репа на гитхаб.
+git push - обновление глобального по локальному
+ 
